@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Profile</title>
+    <meta name="description" content="Personal profile and portfolio" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="avatar">
+          <img
+            src="Profile photo.png"
+            alt="Munkh Erdene avatar"
+            loading="eager"
+            decoding="sync"
+          />
+        </div>
+        <div>
+          <h1 class="title">Munkh Erdene</h1>
+          <p class="subtitle">
+            Full stack Java Developer · Arlington, Virginia ·
+            <a href="mailto:you@example.com">munkherdene756@revature.net</a>
+          </p>
+          <nav aria-label="Profile sections">
+            <a class="chip" href="#about">About</a>
+            <a class="chip" href="#skills">Skills</a>
+            <a class="chip" href="#experience">Experience</a>
+            <a class="chip" href="#projects">Projects</a>
+            <a class="chip" href="#contact">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="about">
+          <h2>About</h2>
+          <p>
+            Hi, I’m Munkh — a passionate Full Stack Developer who loves building
+            scalable web apps from end to end. I work with Java, Spring Boot,
+            Node.js, React.js, and both SQL & NoSQL databases. I enjoy solving
+            real-world problems with clean, efficient code and learning new
+            technologies that make development faster and smarter. 
+          </p>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <div class="grid cols-3">
+            <div class="card">
+              <strong>Frontend</strong>
+              <ul class="tags">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Tailwind CSS</li>
+                <li>WordPress</li>
+              </ul>
+            </div>
+            <div class="card">
+              <strong>Backend</strong>
+              <ul class="tags">
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>REST</li>
+                <li>Java</li>
+                <li>NoSQL</li>
+                <li>SpringBoot</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+            <div class="card">
+              <strong>Tools</strong>
+              <ul class="tags">
+                <li>Git</li>
+                <li>GCP</li>
+                <li>CI/CD</li>
+                <li>Testing</li>
+                <li>GitPilot</li>
+                <li>AWS</li>
+                <li>VS Code</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <div class="grid">
+            <article class="card">
+              <strong>Full Stack Java Developer · Revature LLC</strong>
+              <div class="meta">Oct 2025 – Present · Herndon, Virginia</div>
+              <p>
+                <li>
+                  Developed and maintained full-stack Java applications to
+                  streamline client operations, resulting in a 25% improvement
+                  in system performance.
+                </li>
+                <li>
+                  Collaborated on cross-functional agile teams to deliver
+                  scalable web solutions, contributing to 3 successful
+                  enterprise-level deployments.
+                </li>
+              </p>
+              <ul class="tags">
+                <li>Java</li>
+                <li>SpringBoot</li>
+                <li>MySQL</li>
+              </ul>
+            </article>
+            <article class="card">
+              <strong>Full Stack Developer · Byte2AI LLC</strong>
+              <div class="meta">2023 – 2024 · Remote</div>
+              <p>
+                <li>
+                  Developed and deployed a microservices-based application using
+                  Spring Boot and Docker, improving system scalability by 30%.
+                </li>
+                <li>
+                  Implemented RESTful APIs and integrated third-party services,
+                  enhancing application functionality and user experience.
+                </li>
+              </p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>WordPress</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="grid cols-2">
+            <article class="card">
+              <strong>Movie Review App</strong>
+              <div class="meta">Personal · 2025</div>
+              <p>
+                A web application that allows users to browse, search, and
+                review movies. It provides a user-friendly interface and
+                integrates with a movie database API.
+              </p>
+              <ul class="tags">
+                <li>SpringBoot</li>
+                <li>MySQL</li>
+                <li>AWS</li>
+              </ul>
+              <p>
+                <a href="#" aria-label="Movie Review App live link">Live</a> ·
+                <a href="#" aria-label="Movie Review App source code">Source</a>
+              </p>
+            </article>
+            <article class="card">
+              <strong>E-Commerce App</strong>
+              <div class="meta">Personal · 2023</div>
+              <p>
+                A comprehensive e-commerce application that allows users to
+                browse products, add them to a cart, and make purchases. It
+                features user authentication, product reviews, and an admin
+                dashboard for managing inventory.
+              </p>
+              <ul class="tags">
+                <li>SpringBoot</li>
+                <li>MySQL</li>
+                <li>Testing</li>
+              </ul>
+              <p>
+                <a href="#" aria-label="E-Commerce App live link">Live</a> ·
+                <a href="#" aria-label="E-Commerce App source code">Source</a>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <div class="grid cols-2">
+            <div class="card">
+              <strong>Email</strong>
+              <p>
+                <a href="mailto:you@example.com">munkherdene756@revature.net</a>
+              </p>
+            </div>
+            <div class="card">
+              <strong>Links</strong>
+              <p>
+                <a
+                  href="https://github.com/RevMovie0"
+                  aria-label="GitHub profile"
+                  >GitHub</a
+                >
+                ·
+                <a
+                  href="https://www.linkedin.com/in/munkh-e-510408212/"
+                  aria-label="LinkedIn profile"
+                  >LinkedIn</a
+                >
+                ·
+                <a
+                  href="https://app.revature.com/viewportfolio/My%20Portfolio"
+                  aria-label="Revature profile"
+                  >Revature</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <small
+          >© <span id="year"></span> Munkh Erdene. All rights reserved.</small
+        >
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
